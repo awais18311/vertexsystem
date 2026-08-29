@@ -1,0 +1,56 @@
+.vx-testimonial {
+  background: var(--gray-bg);
+  border-radius: var(--radius-md);
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.vx-testimonial__icon {
+  color: var(--blue);
+  opacity: 0.35;
+}
+
+.vx-testimonial blockquote {
+  font-size: 16.5px;
+  line-height: 1.75;
+  color: var(--text-dark);
+  font-style: normal;
+}
+
+.vx-testimonial figcaption {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.vx-testimonial__avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--white);
+  font-family: var(--font-display);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.vx-testimonial__name {
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--navy);
+}
+
+.vx-testimonial__role {
+  display: block;
+  font-size: 13.5px;
+  color: var(--text-gray);
+}

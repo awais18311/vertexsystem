@@ -1,0 +1,204 @@
+.vx-contact-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.3fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.vx-contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.vx-contact-info > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.vx-contact-info li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.vx-contact-info__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--blue-light);
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.vx-contact-info__label {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-gray);
+  margin-bottom: 4px;
+}
+
+.vx-contact-info li a,
+.vx-contact-info li span:not(.vx-contact-info__label) {
+  font-size: 15.5px;
+  font-weight: 500;
+  color: var(--text-dark);
+  line-height: 1.5;
+}
+
+.vx-contact-social {
+  margin-top: 44px;
+  padding-top: 30px;
+  border-top: 1px solid var(--border);
+}
+
+.vx-contact-social > div {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.vx-contact-social a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--navy);
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.vx-contact-social a:hover {
+  background: var(--blue);
+  color: var(--white);
+  transform: translateY(-3px);
+}
+
+/* Form */
+.vx-contact-form-wrap {
+  background: var(--gray-bg);
+  border-radius: var(--radius-lg);
+  padding: 44px;
+}
+
+.vx-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.vx-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.vx-form-field label {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.vx-form-field input,
+.vx-form-field select,
+.vx-form-field textarea {
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 13px 16px;
+  font-size: 15px;
+  background: var(--white);
+  color: var(--text-dark);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  resize: vertical;
+}
+
+.vx-form-field input:focus,
+.vx-form-field select:focus,
+.vx-form-field textarea:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 4px rgba(23, 105, 224, 0.14);
+}
+
+.vx-form-field input[aria-invalid="true"],
+.vx-form-field select[aria-invalid="true"],
+.vx-form-field textarea[aria-invalid="true"] {
+  border-color: #E0503C;
+}
+
+.vx-form-error {
+  font-size: 13px;
+  color: #E0503C;
+  font-weight: 500;
+}
+
+.vx-contact-form > button {
+  margin-top: 8px;
+}
+
+.vx-contact-success {
+  text-align: center;
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.vx-contact-success svg {
+  color: var(--blue);
+  margin-bottom: 8px;
+}
+
+.vx-contact-success h3 {
+  font-size: 22px;
+}
+
+.vx-contact-success p {
+  color: var(--text-gray);
+  max-width: 380px;
+  line-height: 1.7;
+}
+
+.vx-contact-success button {
+  margin-top: 18px;
+  background: transparent;
+  border: 1.5px solid var(--blue);
+  color: var(--blue);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.vx-contact-success button:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+@media (max-width: 980px) {
+  .vx-contact-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+@media (max-width: 560px) {
+  .vx-form-row {
+    grid-template-columns: 1fr;
+  }
+  .vx-contact-form-wrap {
+    padding: 28px 22px;
+  }
+}

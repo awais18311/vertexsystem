@@ -1,0 +1,33 @@
+.vx-section-title {
+  max-width: 640px;
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.vx-section-title--center {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.vx-section-title h2 {
+  font-size: clamp(28px, 3.6vw, 42px);
+}
+
+.vx-section-title__text {
+  color: var(--text-gray);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.vx-section-title--light h2 {
+  color: var(--white);
+}
+
+.vx-section-title--light .vx-section-title__text {
+  color: rgba(255, 255, 255, 0.72);
+}

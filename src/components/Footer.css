@@ -1,0 +1,116 @@
+.vx-footer {
+  background: var(--navy);
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 88px;
+}
+
+.vx-footer .vx-logo__text {
+  color: var(--white);
+}
+
+.vx-footer__top {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1.1fr;
+  gap: 48px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.vx-footer__brand p {
+  margin-top: 20px;
+  line-height: 1.7;
+  font-size: 15px;
+  max-width: 320px;
+}
+
+.vx-footer__social {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.vx-footer__social a {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+
+.vx-footer__social a:hover {
+  background: var(--blue);
+  border-color: var(--blue);
+  transform: translateY(-3px);
+}
+
+.vx-footer__col h3 {
+  color: var(--white);
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
+.vx-footer__col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 15px;
+}
+
+.vx-footer__col ul a,
+.vx-footer__col ul span {
+  transition: color 0.2s ease;
+}
+
+.vx-footer__col ul a:hover {
+  color: var(--white);
+}
+
+.vx-footer__contact li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.vx-footer__bottom {
+  margin-top: 56px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 24px 0;
+}
+
+.vx-footer__bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.vx-footer__legal {
+  display: flex;
+  gap: 24px;
+}
+
+.vx-footer__legal a:hover {
+  color: var(--white);
+}
+
+@media (max-width: 900px) {
+  .vx-footer__top {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 560px) {
+  .vx-footer__top {
+    grid-template-columns: 1fr;
+  }
+  .vx-footer__bottom-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}

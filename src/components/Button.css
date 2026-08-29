@@ -1,0 +1,65 @@
+.vx-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 15px 26px;
+  border-radius: 999px;
+  border: 1.5px solid transparent;
+  transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+  white-space: nowrap;
+}
+
+.vx-btn__icon {
+  transition: transform 0.25s ease;
+}
+
+.vx-btn:hover .vx-btn__icon {
+  transform: translateX(4px);
+}
+
+.vx-btn:hover {
+  transform: translateY(-2px);
+}
+
+.vx-btn--primary {
+  background: var(--blue);
+  color: var(--white);
+  box-shadow: 0 10px 24px rgba(23, 105, 224, 0.28);
+}
+
+.vx-btn--primary:hover {
+  background: var(--blue-dark);
+  box-shadow: 0 14px 30px rgba(23, 105, 224, 0.34);
+}
+
+.vx-btn--outline {
+  background: transparent;
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.vx-btn--outline:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--white);
+}
+
+.vx-btn--dark {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.vx-btn--dark:hover {
+  background: #142d47;
+}
+
+.vx-btn--light {
+  background: var(--white);
+  color: var(--navy);
+}
+
+.vx-btn--light:hover {
+  background: var(--blue-light);
+}

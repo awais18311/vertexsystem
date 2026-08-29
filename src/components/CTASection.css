@@ -1,0 +1,44 @@
+.vx-cta {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.vx-cta__bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.unsplash.com/photo-1601758228041-3caa2f9c8a58?q=80&w=1920&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.05);
+}
+
+.vx-cta__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(11, 31, 51, 0.94) 0%, rgba(11, 31, 51, 0.88) 55%, rgba(23, 105, 224, 0.55) 100%);
+}
+
+.vx-cta__inner {
+  position: relative;
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.vx-cta h2 {
+  color: var(--white);
+  font-size: clamp(28px, 4vw, 42px);
+  margin-bottom: 18px;
+}
+
+.vx-cta p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 34px;
+}
+
+.vx-cta .vx-btn {
+  margin: 0 auto;
+}
