@@ -76,8 +76,9 @@ export const equipmentList = [
   { icon: Container, name: 'Dry Van', text: 'Reliable dispatch support for general freight and dry van carriers.' },
   { icon: Snowflake, name: 'Reefer', text: 'Dedicated dispatch support for temperature-controlled freight.' },
   { icon: Truck, name: 'Flatbed', text: 'Load coordination for open-deck and specialized flatbed hauls.' },
+    { icon: Layers, name: 'Step Deck', text: 'Dispatch support for tall or oversized freight needing a lowered deck.' },
   { icon: PackageOpen, name: 'Power Only', text: 'Dispatch support tailored to power-only trailer arrangements.' },
-  { icon: Layers, name: 'Step Deck', text: 'Dispatch support for tall or oversized freight needing a lowered deck.' },
+
   { icon: Box, name: 'Box Truck', text: 'Freight matching and dispatch help for box truck operators.' },
   { icon: Mountain, name: 'Hotshot', text: 'Dispatch coordination built around hotshot lanes and timelines.' },
 ]
@@ -97,6 +98,36 @@ export const testimonials = [
     name: 'Daniel K.',
     role: 'Independent Carrier',
     quote: 'Having someone handle load searching and broker communication saves me valuable time.',
+  },
+  {
+    name: 'Robert P.',
+    role: 'Owner Operator',
+    quote: 'They keep me updated at every step, from pickup to delivery. I always know where things stand.',
+  },
+  {
+    name: 'Anthony M.',
+    role: 'Fleet Owner',
+    quote: 'Rate negotiation used to take up so much of my time. Now the Vertex team handles that conversation for me.',
+  },
+  {
+    name: 'Carlos V.',
+    role: 'Independent Carrier',
+    quote: 'Paperwork and documentation are organized and easy to find whenever I need them.',
+  },
+  {
+    name: 'Steven B.',
+    role: 'Owner Operator',
+    quote: 'Their broker communication is quick and professional, which keeps my loads moving without delays.',
+  },
+  {
+    name: 'Marcus D.',
+    role: 'Reefer Carrier',
+    quote: 'They understand the specific needs of temperature-controlled freight and plan my lanes accordingly.',
+  },
+  {
+    name: 'William H.',
+    role: 'Flatbed Owner Operator',
+    quote: 'Dispatch support built around my equipment type has made finding suitable loads a lot simpler.',
   },
 ]
 

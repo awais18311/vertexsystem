@@ -79,21 +79,21 @@ export default function Contact() {
                 <span className="vx-contact-info__icon"><Mail size={19} /></span>
                 <div>
                   <span className="vx-contact-info__label">Email</span>
-                  <a href="mailto:dispatch@vertexsystems.com">dispatch@vertexsystems.com</a>
+                  <a href="mailto:info@dispatchvs.com">info@dispatchvs.com</a>
                 </div>
               </li>
               <li>
                 <span className="vx-contact-info__icon"><MapPin size={19} /></span>
                 <div>
                   <span className="vx-contact-info__label">Office</span>
-                  <span>Dallas, Texas, USA</span>
+                  <span>Joliet, IL 60435</span>
                 </div>
               </li>
               <li>
                 <span className="vx-contact-info__icon"><Clock size={19} /></span>
                 <div>
                   <span className="vx-contact-info__label">Business Hours</span>
-                  <span>Monday – Friday<br />8:00 AM – 6:00 PM CST</span>
+                  <span>Monday – Friday<br />8:00 AM – 6:00 PM EST</span>
                 </div>
               </li>
             </ul>
