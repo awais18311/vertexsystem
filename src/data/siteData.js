@@ -2,7 +2,7 @@ import {
   Search, PhoneCall, Handshake, ClipboardList,
   Truck, Snowflake, Container, PackageOpen, Box, Mountain,
   ShieldCheck, MessageSquare, Eye, UserCheck,
-  Linkedin, Facebook, Instagram,
+  Linkedin, Facebook, Instagram, Layers, Youtube
 } from 'lucide-react'
 
 export const navLinks = [
@@ -20,9 +20,9 @@ export const trustIndicators = [
 ]
 
 export const stats = [
-  { value: 500, suffix: '+', label: 'Loads Dispatched' },
-  { value: 150, suffix: '+', label: 'Carrier Partners' },
-  { value: 48, suffix: '', label: 'States Covered' },
+  { value: 15000, suffix: '+', label: 'Loads Dispatched' },
+  { value: 1000, suffix: '+', label: 'Carrier Partners' },
+  { value: 50, suffix: '', label: 'States Covered' },
   { value: 24, suffix: '/7', label: 'Dispatch Support' },
 ]
 
@@ -77,6 +77,7 @@ export const equipmentList = [
   { icon: Snowflake, name: 'Reefer', text: 'Dedicated dispatch support for temperature-controlled freight.' },
   { icon: Truck, name: 'Flatbed', text: 'Load coordination for open-deck and specialized flatbed hauls.' },
   { icon: PackageOpen, name: 'Power Only', text: 'Dispatch support tailored to power-only trailer arrangements.' },
+  { icon: Layers, name: 'Step Deck', text: 'Dispatch support for tall or oversized freight needing a lowered deck.' },
   { icon: Box, name: 'Box Truck', text: 'Freight matching and dispatch help for box truck operators.' },
   { icon: Mountain, name: 'Hotshot', text: 'Dispatch coordination built around hotshot lanes and timelines.' },
 ]
@@ -147,6 +148,7 @@ export const socialLinks = [
   { icon: Linkedin, label: 'LinkedIn', href: '#' },
   { icon: Facebook, label: 'Facebook', href: '#' },
   { icon: Instagram, label: 'Instagram', href: '#' },
+  { icon: Youtube, label: 'YouTube', href: '#' },
 ]
 
 export const footerServices = [

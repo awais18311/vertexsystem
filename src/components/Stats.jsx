@@ -43,7 +43,7 @@ export default function Stats() {
           </motion.div>
         ))}
       </div>
-      <p className="vx-stats__disclaimer container">Illustrative statistics for website demonstration.</p>
+      
     </section>
   )
 }

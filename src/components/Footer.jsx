@@ -48,8 +48,8 @@ export default function Footer() {
           <h3>Contact</h3>
           <ul className="vx-footer__contact">
             <li><Phone size={16} /><a href="tel:+18005550188">+1 (800) 555-0188</a></li>
-            <li><Mail size={16} /><a href="mailto:dispatch@vertexsystems.com">dispatch@vertexsystems.com</a></li>
-            <li><MapPin size={16} /><span>Dallas, Texas, USA</span></li>
+            <li><Mail size={16} /><a href="mailto:info@dispatchvs.com">info@dispatchvs.com</a></li>
+            <li><MapPin size={16} /><span>Joliet,IL 60435</span></li>
           </ul>
         </div>
       </div>

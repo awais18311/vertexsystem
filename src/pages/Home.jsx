@@ -173,7 +173,7 @@ export default function Home() {
               <TestimonialCard key={t.name} {...t} index={i} />
             ))}
           </div>
-          <p className="vx-testimonial-disclaimer">These are dummy testimonials for UI demonstration.</p>
+         
         </div>
       </section>
     </>

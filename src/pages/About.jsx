@@ -25,7 +25,7 @@ export default function About() {
             transition={{ duration: 0.7 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1591768575198-88dac53fbd0a?q=80&w=1200&auto=format&fit=crop"
+              src="aboutpic.jpg"
               alt="Dispatcher coordinating freight logistics at a desk with a map"
             />
           </motion.div>
