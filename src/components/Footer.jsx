@@ -58,8 +58,8 @@ export default function Footer() {
         <div className="container vx-footer__bottom-inner">
           <p>© 2026 Vertex Systems. All Rights Reserved.</p>
           <div className="vx-footer__legal">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms &amp; Conditions</a>
+            <Link to="/privacy-policy">Privacy Policy</Link>
+            <Link to="/terms-conditions">Terms & Conditions</Link>
           </div>
         </div>
       </div>
