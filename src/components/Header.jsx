@@ -31,9 +31,7 @@ export default function Header() {
     <header className={`vx-header ${solid ? 'vx-header--solid' : ''}`}>
       <div className="container vx-header__inner">
         <Link to="/" className="vx-logo" aria-label="Vertex Systems home">
-          <span className="vx-logo__mark" aria-hidden="true">
-            <MoveRight size={20} strokeWidth={2.6} />
-          </span>
+          <img src="vertexlogo.png" alt="Vertex Systems logo" className="vx-logo__mark" />
           <span className="vx-logo__text">
             VERTEX <span>SYSTEMS</span>
           </span>

@@ -33,7 +33,7 @@ const sections = [
   },
   {
     title: '8. Contact Us',
-    body: `If you have any questions about this Privacy Policy, please contact us at dispatch@vertexsystems.com or +1 (800) 555-0188.`,
+    body: `If you have any questions about this Privacy Policy, please contact us at info@dispatchvs.com or +1 (815) 219-7595 `,
   },
 ]
 
