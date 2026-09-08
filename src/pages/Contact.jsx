@@ -72,7 +72,7 @@ export default function Contact() {
                 <span className="vx-contact-info__icon"><Phone size={19} /></span>
                 <div>
                   <span className="vx-contact-info__label">Phone</span>
-                  <a href="tel:+1 815 219 7597 ">+1 815 219 7595 </a>
+                  <a href="tel:+1 815 219 7597 ">+1 (815) 219 7595 </a>
                 </div>
               </li>
               <li>

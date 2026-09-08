@@ -37,7 +37,7 @@ const sections = [
   },
   {
     title: '9. Contact Us',
-    body: `If you have any questions about these Terms & Conditions, please contact us at info@dispatchvs.com or +1 815 219 7595 `,
+    body: `If you have any questions about these Terms & Conditions, please contact us at info@dispatchvs.com or +1 (815) 219 7595 `,
   },
 ]
 
