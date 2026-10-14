@@ -33,7 +33,11 @@ const sections = [
   },
   {
     title: '8. Contact Us',
-    body: `You agree to receive information messages (appointment reminders, account notifications, etc.) from Vertex Systems LLC. Message frequency varies. Message and data rates may apply. For help, reply HELP or email us at sgsheikh@gmail.com. You can opt out at any time by replying STOP. `,
+    body: `If you have any questions about this Privacy Policy, please contact us at info@dispatchvs.com or +1 (815) 219-7595 `,
+  },
+  {
+    title: '9. SMS Opt-In Information and Privacy',
+    body: `Mobile opt-in information, including phone numbers and SMS consent, will not be shared with third parties for marketing purposes. We use it only to send the messages you asked for. `,
   },
 ]
 
