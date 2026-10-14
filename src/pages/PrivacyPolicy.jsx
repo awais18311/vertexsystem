@@ -33,7 +33,7 @@ const sections = [
   },
   {
     title: '8. Contact Us',
-    body: `If you have any questions about this Privacy Policy, please contact us at info@dispatchvs.com or +1 (815) 219-7595 `,
+    body: `You agree to receive information messages (appointment reminders, account notifications, etc.) from Vertex Systems LLC. Message frequency varies. Message and data rates may apply. For help, reply HELP or email us at sgsheikh@gmail.com. You can opt out at any time by replying STOP. `,
   },
 ]
 
